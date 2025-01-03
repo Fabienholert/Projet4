@@ -155,7 +155,7 @@
       });
       next =
         imagesCollection[index] ||
-        imagesCollection[imagesCollection.length - 1];
+        imagesCollection[imagesCollection.length + 1];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
     nextImage() {
