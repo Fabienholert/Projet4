@@ -6132,7 +6132,7 @@ textarea.form-control-lg {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: black;
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
@@ -6587,6 +6587,7 @@ textarea.form-control-lg {
   clip: rect(0, 0, 0, 0) !important;
   white-space: nowrap !important;
   border: 0 !important;
+  background-color: #000;
 }
 
 .stretched-link::after {
